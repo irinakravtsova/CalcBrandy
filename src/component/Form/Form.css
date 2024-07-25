@@ -1,0 +1,12 @@
+.data {
+ display: flex;
+ gap: 20px;
+ align-items: center;
+ 
+}
+.data-input {
+}
+
+.label {
+  font-size: 22px;
+}

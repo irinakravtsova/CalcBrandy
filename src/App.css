@@ -1,0 +1,146 @@
+
+.h1 {
+  margin-top: 24px;
+  margin-bottom: 34px;
+  text-align: center;
+  font-size: 46px;
+  font-weight: 700;
+line-height: normal;
+}
+.h2 {
+  margin-bottom: 46px;
+  font-size: 28px;
+  font-weight: 700;
+line-height: normal;
+}
+.h3 {
+  margin-bottom: 24px;
+  font-size: 26px;
+  font-weight: 400;
+line-height: normal;
+
+}
+.p {
+  font-size: 20px;
+  font-style: italic
+}
+.calc {
+  max-width: 1400px;
+  margin: 0 auto;
+ 
+}
+.calc__inner {
+  padding: 102px 98px 0 98px;
+  display: flex;
+  gap: 100px;
+}
+.form__wrapper {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.btn,
+.input
+ {
+  font-size: 24px;
+  font-weight: 400;
+line-height: 39px;
+}
+.label {
+  font-size: 22px;
+  width: 50%;
+
+}
+.input {
+ padding: 11px;
+ /* display: inline-block;  */
+ width: 80px; 
+ height: 40px;
+  border: 1px solid #000;
+}
+.input:focus,
+.input:focus {
+ background-color: #e0e8ed;
+ border: 2px solid #000;
+}
+.post-text-input {
+padding: 11px 0 200px 20px;
+  border: 1px solid #000;
+  resize: none;
+ }
+
+.btn {
+  margin-top: 20px;
+  display: inline-block;
+padding-top: 9px;
+padding-bottom: 12px;
+width: 80%;
+background-color: #31805e;
+}
+.btn:active,
+.btn:hover {
+  background-color: #60afa5; 
+}
+.btn:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.result {
+  display: flex;
+}
+
+.delete-btn {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 7px;
+  width: 100%;
+  background-color: #31805e;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+}
+.delete-btn:active,
+.delete-btn:hover {
+  background-color: #60afa5; 
+}
+
+.post {
+  margin-bottom: 50px;
+  max-width: 500px;
+}
+.calc-result {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.post {
+  max-width: 500px;
+}
+.post__date {
+  margin-bottom: 15px;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0094FF;
+}
+.post__title {
+margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 700;
+line-height: 39px;
+}
+
+.post__text {
+  display: block;
+  font-size: 25px;
+  font-weight: 400;
+line-height: 30px;
+max-width: 500px;
+}
+
+.title__countSumbol,
+.text__countSumbol {
+  font-size: 20px;
+ color: red;
+}
